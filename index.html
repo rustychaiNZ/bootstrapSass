@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<!-- Bootstrap CSS -->
+		<!-- This is the pre compiled version of boot strap 
+		<link rel="stylesheet" type="text/css" href="bootstrap-4.3.1-dist/css/bootstrap.min.css"> -->
+		<!-- Uncompiled version of bootstrap -->
+		<link rel="stylesheet" type="text/css" href="bootstrap-4.3.1/dist/css/bootstrap.css">
+		<!-- Custom CSS must come after the bootstrap -->
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+
+		<title>Hello, world!</title>
+	</head>
+	<body>
+		<h1 id="yes" class="jumbotron text-center display-1">Hi there</h1>
+		
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6">
+					<img src="images/yes.png" class="img-thumbnail" id="modalOfMe" data-toggle="modal">
+				</div>
+				<div class="col-lg-6">
+					<h2>This is me</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae recusandae, rerum voluptas molestias nesciunt. Et quod at, earum, repellendus ipsa esse ea molestias non dignissimos accusamus sapiente. Blanditiis, libero nihil?</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae recusandae, rerum voluptas molestias nesciunt. Et quod at, earum, repellendus ipsa esse ea molestias non dignissimos accusamus sapiente. Blanditiis, libero nihil?</p>
+
+					<button class="btn btn-block btn-danger" id="meBtn" data-target="#modalOfMe" type="button">Click to see in modal</button>
+				</div>
+				<div class="col-lg-6">
+					<h2>My House</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae recusandae, rerum voluptas molestias nesciunt. Et quod at, earum, repellendus ipsa esse ea molestias non dignissimos accusamus sapiente. Blanditiis, libero nihil?</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae recusandae, rerum voluptas molestias nesciunt. Et quod at, earum, repellendus ipsa esse ea molestias non dignissimos accusamus sapiente. Blanditiis, libero nihil?</p>
+					<button class="btn btn-block btn-danger" id="myHouseBtn">Click to see in modal</button>
+				</div>
+				<div class="col-lg-6">
+					<img src="images/myHouse.png" alt="a picutre of my house" class="img-thumbnail">
+				</div>
+			</div>	
+		</div>
+
+		<!-- ___Modals of my classy pictures___ -->
+		<!-- Me -->
+		<div class="modal fade" id="modalOfMe" tabindex="-1" role="dialog">
+  			<div class="modal-dialog" role="document">
+  				<div class="modal-content">
+  					<div class="modal-header">
+  			    		<h5 class="modal-title">Me</h5>
+  			    		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+  			    		<span aria-hidden="true">&times;</span>
+  			      		</button>
+  			    	</div>
+  			    	<div class="modal-body">
+  			     		<img src="images/yes.png" class="img-thumbnail">
+  			    	</div>
+  			    	<div class="modal-footer">
+  			      		<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+  			    	</div>
+  			  	</div>
+  			</div>
+		</div>
+		
+		<!-- jQuery first, then Popper.js, then Bootstrap JS and finally your custom js file -->
+		<script src="js/jquery.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
+		<!-- Optional JavaScript comes after the other js files -->
+		<script src="js/script.js"></script>
+	</body>
+</html>

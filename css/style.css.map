@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACA,UAAU;EACT,UAAU,EAAE,OAAO;EACnB,MAAM,EAAE,OAAO;EACf,aAAa,EAAE,CAAC;EAChB,aAAa,EAAE,CAAC;;AAEjB,UAAU;EACT,UAAU,EAAE,IAAI;EAChB,gBAAgB,EAAE,IAAI;EACtB,UAAU,EAAE,CAAC;;AAEd,cAAc;EACb,UAAU,EAAE,IAAI;;ACZjB,GAAG;EACF,aAAa,EAAE,GAAG;;AAEnB,IAAI;EACH,UAAU,EAAE,OAAO;;ACHpB,CAAC;EACA,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,UAAU,EAAE,UAAU",
+"sources": ["../sass/_customBootstrap.scss","../sass/_myCustomCss.scss","../sass/style.scss"],
+"names": [],
+"file": "style.css"
+}
