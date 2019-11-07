@@ -8,8 +8,6 @@
 		<!-- Bootstrap CSS -->
 		<!-- This is the pre compiled version of boot strap 
 		<link rel="stylesheet" type="text/css" href="bootstrap-4.3.1-dist/css/bootstrap.min.css"> -->
-		<!-- Uncompiled version of bootstrap -->
-		<link rel="stylesheet" type="text/css" href="bootstrap-4.3.1/dist/css/bootstrap.css">
 		<!-- Custom CSS must come after the bootstrap -->
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 
@@ -21,14 +19,14 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-6">
-					<img src="images/yes.png" class="img-thumbnail" id="modalOfMe" data-toggle="modal">
+					<img src="images/yes.png" class="img-thumbnail" id="me" data-toggle="modal">
 				</div>
 				<div class="col-lg-6">
 					<h2>This is me</h2>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae recusandae, rerum voluptas molestias nesciunt. Et quod at, earum, repellendus ipsa esse ea molestias non dignissimos accusamus sapiente. Blanditiis, libero nihil?</p>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae recusandae, rerum voluptas molestias nesciunt. Et quod at, earum, repellendus ipsa esse ea molestias non dignissimos accusamus sapiente. Blanditiis, libero nihil?</p>
 
-					<button class="btn btn-block btn-danger" id="meBtn" data-target="#modalOfMe" type="button">Click to see in modal</button>
+					<button type="button" class="btn btn-danger btn-block" data-toggle="modal" data-target="#modalOfMe">Launch demo modal</button>
 				</div>
 				<div class="col-lg-6">
 					<h2>My House</h2>
@@ -44,8 +42,8 @@
 
 		<!-- ___Modals of my classy pictures___ -->
 		<!-- Me -->
-		<div class="modal fade" id="modalOfMe" tabindex="-1" role="dialog">
-  			<div class="modal-dialog" role="document">
+		<div class="modal bd-example-modal-xl fade" id="modalOfMe" tabindex="-1" role="dialog">
+  			<div class="modal-dialog modal-xl" role="document">
   				<div class="modal-content">
   					<div class="modal-header">
   			    		<h5 class="modal-title">Me</h5>
