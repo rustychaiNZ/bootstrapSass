@@ -14,9 +14,21 @@
 		<title>Hello, world!</title>
 	</head>
 	<body>
-		<h1 id="yes" class="jumbotron text-center display-1">Hi there</h1>
+		<h1 id="yes" class="jumbotron text-center display-1">Bootstrap SASS</h1>
+
+		<div class="container btn-container">
+			<div class="row">
+				<div class="col-6">
+					<button class="btn btn-primary btn-block" id="homeScreenBtn">Home</button>			
+				</div>
+				<div class="col-6">
+					<button class="btn btn-primary btn-block" id="userMapBtn">Map</button>
+				</div>
+			</div>
+		</div>
 		
-		<div class="container">
+		<!-- Home screen -->
+		<div class="container" id="homeScreenContainer">
 			<div class="row">
 				<div class="col-lg-6">
 					<img src="images/yes.png" class="img-thumbnail" id="me" data-toggle="modal">
@@ -32,13 +44,29 @@
 					<h2>My House</h2>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae recusandae, rerum voluptas molestias nesciunt. Et quod at, earum, repellendus ipsa esse ea molestias non dignissimos accusamus sapiente. Blanditiis, libero nihil?</p>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae recusandae, rerum voluptas molestias nesciunt. Et quod at, earum, repellendus ipsa esse ea molestias non dignissimos accusamus sapiente. Blanditiis, libero nihil?</p>
-					<button class="btn btn-block btn-danger" id="myHouseBtn">Click to see in modal</button>
+					<button class="btn btn-block btn-danger disabled" id="myHouseBtn">Click to see in modal</button>
 				</div>
 				<div class="col-lg-6">
 					<img src="images/myHouse.png" alt="a picutre of my house" class="img-thumbnail">
 				</div>
 			</div>	
 		</div>
+		<!-- Home screen end -->
+		
+		<!-- Map Screen -->
+		<div class="container" id="mapScreenContainer">
+			<div class="row">
+				<div class="col">
+					<h2>This is a map</h2>
+					<!-- Map is loaded here -->
+					<div id="map">
+
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Map screen end -->
+		
 
 		<!-- ___Modals of my classy pictures___ -->
 		<!-- Me -->
@@ -67,5 +95,6 @@
 		<script src="bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
 		<!-- Optional JavaScript comes after the other js files -->
 		<script src="js/script.js"></script>
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA2RKqXFhhyCR6Srbf-gawuzpyM4CuKhrY&callback=initMap" async defer></script>
 	</body>
 </html>

@@ -6,9 +6,13 @@
 	border-radius: 0;
 }
 .container{
-	min-height: 80vh;
+	min-height: 0;
 	background-color: pink;
 	margin-top: 0;
+	padding-bottom: 25px;
+}
+.btn-block{
+	margin-top: 15px;
 }
 .img-thumbnail{
 	margin-top: 15px;
